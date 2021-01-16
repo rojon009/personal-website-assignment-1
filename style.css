@@ -10,6 +10,7 @@
 body {
   font-size: 14px;
   font-family: "Roboto", sans-serif;
+  overflow-y: hidden;
 }
 
 h1 {
@@ -276,13 +277,13 @@ footer {
   width: 100vw;
   top: 0;
   left: 0;
-  bottom: 0;
-  right: 0;
+  overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
   position: fixed;
   flex-wrap: wrap;
+  pointer-events: none;
 }
 .unit {
   text-align: center;

@@ -202,9 +202,11 @@
     </footer>
     <script>
       var preloader = document.getElementById("loading");
+      var body = document.body;
 
       function loaderSpin() {
         preloader.style.display = "none";
+        body.style.overflowY = 'auto';
       }
     </script>
   </body>
